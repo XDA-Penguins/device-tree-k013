@@ -18,4 +18,5 @@ This device tree is untested with Cyanogenmod, so like above, YMMV. This device 
 Standard disclaimers apply. If you flash any part of this repository or generated code files you run the risk of bricking your device. I cannot be held responsible for your actions. If you are smart you would have a clonzilla live usb and powered hub with a nandroid backup. Then, if you can't get into a recovery environment you can boot the system and dd back the image. 
 
 ## Finally,
-Make sure you have the insecure bootloader installed before attempting to flash any of these files!!
+Make sure you have the insecure bootloader installed (plus your flavour of a recovery) before attempting to flash any of these files!!
+Oh, and fastboot does not play nice with the new system.img format. TWRP/CWM/dd should be able to help.
