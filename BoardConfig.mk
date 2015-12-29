@@ -21,7 +21,10 @@ USE_OPENGL_RENDERER := true
 
 BOARD_USE_LEGACY_UI := true
 
-# PDK does not use ext4 image, but it is added here to prevent build break. This has been preconfigured by me, please double check this anyway. Sizes should be in bytes and these values result in files that are identical in size to those extracted by dd from the stock os.
+# PDK does not use ext4 image, but it is added here to prevent build break. 
+#This has been preconfigured by me, please double check these filesystem sizes anyway.. 
+#Sizes should be in bytes and these values result in build imgs that are identical in size to those extracted by dd from the stock os.
+
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1879048192
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12159249920
